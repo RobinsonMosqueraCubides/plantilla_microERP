@@ -9,9 +9,9 @@ Este documento consolida las tareas y fases de desarrollo basadas en `ARCHITECTU
 - [x] Crear el andamiaje estricto de carpetas en el frontend (`src/core`, `src/shared`, `src/layouts`, `src/modules`).
 
 ## Fase 2: Motor de Persistencia (Mock LocalStorage) [🟡 Medio]
-- [ ] Implementar `src/core/mock-db/MockEngine.js` con métodos CRUD asíncronos (`getAll`, `getById`, `create`, `update`, `softDelete`) y delay simulado (300ms-600ms).
-- [ ] Crear el script de inicialización de datos (`src/core/mock-db/dbInit.js`) con semillas iniciales (3 productos, 2 proveedores por producto, 2 clientes, 3 transacciones).
-- [ ] Definir estado global o contexto para gestionar las cargas asíncronas de la UI (Loaders/Spinners) de forma transparente.
+- [x] Implementar `src/core/mock-db/MockEngine.js` con métodos CRUD asíncronos (`getAll`, `getById`, `create`, `update`, `softDelete`) y delay simulado (300ms-600ms).
+- [x] Crear el script de inicialización de datos (`src/core/mock-db/dbInit.js`) con semillas iniciales (3 productos, 2 proveedores por producto, 2 clientes, 3 transacciones).
+- [x] Definir estado global o contexto para gestionar las cargas asíncronas de la UI (Loaders/Spinners) de forma transparente.
 
 ## Fase 3: Componentes UI Compartidos (Mobile-First) [🟡 Medio]
 - [ ] `Button.jsx`: Botón móvil (altura mínima 48px) con estados integrados de `disabled`/`loading`.
